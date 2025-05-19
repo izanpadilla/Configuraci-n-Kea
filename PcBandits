@@ -23,6 +23,10 @@
         {
                 "name": "routers",
                 "data": "192.168.1.1"
+        },
+        {
+                "name": "domain-name-servers",
+                "data": "192.168.4.20"
         }
         ],
 "reservations": [
@@ -47,6 +51,10 @@
         {
                 "name": "routers",
                 "data": "192.168.2.1"
+        },
+        {
+                "name": "domain-name-servers",
+                "data": "192.168.4.20"
         }
         ],
         "reservations": [
@@ -61,28 +69,47 @@
         ]
         },
         {
-        "subnet": "192.168.3.0/24",
+        "subnet": "192.168.4.0/24",
         "pools": [
         {
-                "pool": "192.168.3.100 - 192.168.3.200"
+                "pool": "192.168.4.100 - 192.168.4.200"
         }
         ],
         "option-data": [
         {
                 "name": "routers",
-                "data": "192.168.3.1"
+                "data": "192.168.4.1"
+        },
+        {       "name": "domain-name-servers",
+                "data": "192.168.4.20"
         }
         ],
 "reservations": [
           {
             "hw-address": "08:00:27:AA:AA:EE",
-            "ip-address": "192.168.3.10"
+            "ip-address": "192.168.4.10"
           },
           {
             "hw-address": "08:00:27:AA:AA:FF",
-            "ip-address": "192.168.3.11"
+            "ip-address": "192.168.4.20"
+          },
+          {
+            "hw-address": "08:00:27:AA:11:EE",
+            "ip-address": "192.168.4.30"
+          },
+          {
+            "hw-address": "08:00:27:AA:22:EE",
+            "ip-address": "192.168.4.40"
+          },
+          {
+            "hw-address": "08:00:27:AA:33:EE",
+            "ip-address": "192.168.4.50"
+          },
+          {
+            "hw-address": "08:00:27:AA:44:EE",
+            "ip-address": "192.168.4.60"
           }
-]
+        ]
         }
         ],
         "loggers": [
